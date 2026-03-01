@@ -14,9 +14,3 @@ venv\Scripts\activate
 
 5. Install dependencies
 pip install -r requirements.txt
-
-6. Create .env file
-GEMINI_API_KEY=your_key
-
-7. Run
-streamlit run app.py
