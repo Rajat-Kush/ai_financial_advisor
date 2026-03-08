@@ -1,294 +1,265 @@
-💰 AI Financial Advisor
+# AI Financial Advisor
 
+An *AI-powered financial planning dashboard* that analyzes financial data, visualizes financial health, and generates personalized financial advice using **Google Gemini AI**.
 
+The system helps users understand their **income, expenses, savings, and debts** while offering intelligent recommendations for budgeting, investing, and financial goal planning.
 
+---
 
+# Project Demo
 
+Watch the complete project explanation and demo video.
 
-
-
-
-
-An AI-powered financial planning dashboard that analyzes financial data, visualizes financial health, and generates personalized financial advice using Google Gemini AI.
-
-The system helps users understand their income, expenses, savings, and debts while offering intelligent recommendations for budgeting, investing, and financial goal planning.
-
-🎥 Project Demo
-
-Watch the complete project explanation and demo video:
-
-👉 Demo Video:
-Add your Google Drive link here
+*Demo Video:*  
+(Add your Google Drive link here)
 
 Example:
 
 https://drive.google.com/file/d/your-video-id/view
-📸 Application Screenshots
-Dashboard Overview
 
-Financial Analysis
+---
 
-Financial Visualization
+# Application Screenshots
 
-AI Chatbot
+## Dashboard Overview
+![Dashboard](screenshots/dashboard.png)
 
-📌 Project Overview
+## Financial Analysis
+![Financial Analysis](screenshots/financial_analysis.png)
+
+## Financial Visualization
+![Charts](screenshots/charts.png)
+
+## AI Chatbot
+![Chatbot](screenshots/chatbot.png)
+
+---
+
+# Project Overview
 
 Managing personal finances can be challenging without proper financial insights and planning.
 
 Many individuals struggle to:
 
-Track their spending
+* Track their spending
+* Understand their savings capacity
+* Plan investments
+* Manage debts effectively
 
-Understand their savings capacity
+The **AI Financial Advisor** solves this problem by combining:
 
-Plan investments
+* Financial analytics
+* Data visualization
+* Artificial intelligence
 
-Manage debts effectively
+The system analyzes financial data and generates **personalized recommendations using Gemini AI**.
 
-The AI Financial Advisor solves this problem by combining:
+---
 
-Financial analytics
+# Features
 
-Data visualization
-
-Artificial intelligence
-
-The system analyzes financial data and generates personalized recommendations using Google Gemini AI.
-
-🚀 Key Features
-📊 Financial Analysis
+## Financial Analysis
 
 The system calculates key financial indicators such as:
 
-Savings Ratio
+* Savings Ratio
+* Debt-to-Income Ratio
+* Expense Ratio
+* Emergency Fund Requirement
+* Investment Capacity
+* Net Worth Estimation
 
-Debt-to-Income Ratio
+---
 
-Expense Ratio
+## AI Financial Advisor
 
-Emergency Fund Requirement
+Uses **Google Gemini AI** to generate personalized financial recommendations including:
 
-Investment Capacity
+* Budgeting strategies
+* Debt management plans
+* Investment suggestions
+* Goal-based financial planning
 
-Net Worth Calculation
+---
 
-🤖 AI Financial Advisor
+## Financial Visualization
 
-Uses Google Gemini AI to generate personalized financial recommendations including:
+Interactive charts help users understand financial distribution:
 
-Budgeting strategies
+* Pie Chart – Savings and Investment Distribution
+* Bar Chart – Financial Allocation Breakdown
+* Financial Health Indicators
 
-Debt management plans
+---
 
-Investment suggestions
-
-Financial goal planning
-
-📈 Financial Visualization
-
-Interactive charts help users understand their financial distribution:
-
-Pie Chart – Savings and Investment Distribution
-
-Bar Chart – Financial Allocation Breakdown
-
-Financial Health Indicators
-
-💬 AI Financial Chatbot
+## AI Financial Chatbot
 
 Users can ask financial questions such as:
 
-How can I reduce my debt?
+* How can I reduce my debt?
+* How much should I invest monthly?
+* How can I build an emergency fund?
 
-How much should I invest monthly?
+The chatbot provides **personalized responses based on the user's financial profile**.
 
-How can I build an emergency fund?
+---
 
-The chatbot provides personalized responses based on the user's financial profile.
-
-🎯 Goal-Based Financial Planning
+## Goal-Based Financial Planning
 
 Users can define financial goals such as:
 
-Buying a house
+* Buying a house
+* Building an emergency fund
+* Traveling
+* Long-term investment growth
 
-Building an emergency fund
+The AI system generates structured strategies to help achieve these goals.
 
-Traveling
+---
 
-Long-term investment growth
+# AI Integration
 
-The AI system generates structured strategies to achieve these goals.
-
-🧠 AI Integration
-
-This project integrates Google Gemini AI to generate intelligent financial advice.
+This project integrates **Google Gemini AI** to generate intelligent financial advice.
 
 The AI model analyzes:
 
-Income
+* Income
+* Expenses
+* Debts
+* Savings
+* Risk tolerance
+* Financial goals
 
-Expenses
+Based on this information, the system generates **structured financial recommendations**.
 
-Debts
+---
 
-Savings
-
-Risk tolerance
-
-Financial goals
-
-Based on this information, the system generates structured financial recommendations.
-
-🏗 Project Architecture
+# Project Architecture
 ai_financial_advisor
 │
 ├── core
-│   ├── finance_analysis.py
-│   ├── ai_advisor.py
-│   ├── visualization.py
-│   └── utils.py
+│ ├── finance_analysis.py
+│ ├── ai_advisor.py
+│ ├── visualization.py
+│ └── utils.py
 │
 ├── streamlit
-│   ├── app.py
-│   └── gemini_chat.py
+│ ├── app.py
+│ └── gemini_chat.py
 │
 ├── assets
-│   └── styles.css
+│ └── styles.css
 │
 ├── screenshots
 │
 ├── requirements.txt
 ├── README.md
 └── .env
-⚙️ Technology Stack
-Programming Language
 
-Python
 
-Frontend
+---
 
-Streamlit
+# Technology Stack
 
-AI Model
+## Programming Language
+* Python
 
-Google Gemini AI
+## Frontend
+* Streamlit
 
-Visualization Libraries
+## AI Model
+* Google Gemini AI
 
-Matplotlib
+## Visualization Libraries
+* Matplotlib
+* Seaborn
 
-Seaborn
+## Data Libraries
+* Pandas
+* NumPy
 
-Plotly
+## Environment Management
+* Python-dotenv
 
-Data Libraries
+---
 
-Pandas
+# Financial Metrics Implemented
 
-NumPy
+The application computes several financial indicators including:
 
-Environment Management
+## Savings Ratio
+Percentage of income saved after expenses.
 
-Python-dotenv
-
-📊 Financial Metrics Implemented
-
-The system calculates several financial indicators including:
-
-Savings Ratio
-
-Measures the percentage of income saved after expenses.
-
-Debt-to-Income Ratio
-
+## Debt-to-Income Ratio
 Evaluates how much of the user's income goes toward debt repayment.
 
-Expense Ratio
-
+## Expense Ratio
 Shows the proportion of income spent on monthly expenses.
 
-Emergency Fund Requirement
+## Emergency Fund Requirement
+Calculates recommended savings equivalent to **six months of expenses**.
 
-Estimates recommended savings equivalent to six months of expenses.
-
-Investment Capacity
-
+## Investment Capacity
 Determines how much of the monthly savings can be allocated toward investments.
 
-🛠 Installation Guide
-1️⃣ Clone the repository
-git clone https://github.com/your-username/ai-financial-advisor.git
-2️⃣ Navigate to the project directory
-cd ai-financial-advisor
-3️⃣ Install dependencies
-pip install -r requirements.txt
-4️⃣ Configure Environment Variables
+---
 
-Create a .env file in the root directory:
+# 🛠 Installation Guide
 
-GEMINI_API_KEY=your_api_key_here
-5️⃣ Run the application
-streamlit run streamlit/app.py
-▶️ Usage
+## 1. Clone the repository
+## 2. Navigate to the project folder
+## 3. Install dependencies
+## 4. Configure Environment Variables
+    Create a `.env` file in the root directory.
+## 5. Run the application
 
-Enter financial details in the sidebar:
 
-Monthly income
+---
 
-Expenses
+# Usage
 
-Savings
+1. Enter financial details in the sidebar:
+   * Monthly income
+   * Expenses
+   * Savings
+   * Debts
+   * Financial goals
+   * Risk tolerance
 
-Debts
+2. Click **Analyze & Advise**
 
-Financial goals
+3. The system will generate:
 
-Risk tolerance
+* Financial metrics
+* Financial health indicators
+* Visual charts
+* AI-powered financial recommendations
 
-Click Analyze & Advise
+4. Ask questions in the **AI chatbot** for additional financial guidance.
 
-The system will generate:
+---
 
-Financial metrics
+# Future Improvements
 
-Financial health indicators
+Possible enhancements include:
 
-Visual charts
+* Portfolio optimization models
+* Real-time financial data integration
+* Budget tracking over time
+* Mobile-friendly interface
+* Machine learning risk prediction
+* Financial forecasting models
 
-AI-powered financial recommendations
+---
 
-Ask questions in the AI chatbot for additional financial guidance.
+# Project Objective
 
-🔮 Future Improvements
-
-Possible future enhancements include:
-
-Portfolio optimization models
-
-Real-time financial data integration
-
-Budget tracking over time
-
-Mobile-friendly interface
-
-Machine learning risk prediction
-
-Financial forecasting models
-
-🎓 Project Objective
-
-This project demonstrates how Artificial Intelligence and financial analytics can be combined to create an intelligent financial advisory system.
+This project demonstrates how **Artificial Intelligence and financial analytics** can be combined to create an intelligent financial advisory system.
 
 It showcases skills in:
 
-Financial data analysis
-
-AI integration
-
-Dashboard development
-
-Data visualization
-
-Interactive UI design
+* Financial data analysis
+* AI integration
+* Dashboard development
+* Data visualization
+* Interactive UI design
