@@ -8,30 +8,8 @@ The system helps users understand their **income, expenses, savings, and debts**
 
 # Project Demo
 
-Watch the complete project explanation and demo video.
-
 *Demo Video:*  
-(Add your Google Drive link here)
-
-Example:
-
-https://drive.google.com/file/d/your-video-id/view
-
----
-
-# Application Screenshots
-
-## Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
-
-## Financial Analysis
-![Financial Analysis](screenshots/financial_analysis.png)
-
-## Financial Visualization
-![Charts](screenshots/charts.png)
-
-## AI Chatbot
-![Chatbot](screenshots/chatbot.png)
+[(Add your Google Drive link here)](https://drive.google.com/file/d/1PUK5Cf6TmEs8fIO6Y-TEoW-oSXN-Fhux/view?usp=sharing)
 
 ---
 
