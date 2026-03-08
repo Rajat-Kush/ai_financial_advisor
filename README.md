@@ -112,51 +112,42 @@ Based on this information, the system generates **structured financial recommend
 
 ---
 
-# Project Architecture
-ai_financial_advisor
+## 🏗 Project Architecture
+
+```
+ai_financial_advisor/
 │
-├── core
-│ ├── finance_analysis.py
-│ ├── ai_advisor.py
-│ ├── visualization.py
-│ └── utils.py
+├── core/
+│   ├── finance_analysis.py
+│   ├── ai_advisor.py
+│   ├── visualization.py
+│   └── utils.py
 │
-├── streamlit
-│ ├── app.py
-│ └── gemini_chat.py
+├── streamlit/
+│   ├── app.py
+│   └── gemini_chat.py
 │
-├── assets
-│ └── styles.css
+├── assets/
+│   └── styles.css
 │
-├── screenshots
+├── screenshots/
 │
 ├── requirements.txt
 ├── README.md
 └── .env
+```
 
 
 ---
 
 # Technology Stack
-
-## Programming Language
 * Python
-
-## Frontend
 * Streamlit
-
-## AI Model
 * Google Gemini AI
-
-## Visualization Libraries
 * Matplotlib
 * Seaborn
-
-## Data Libraries
 * Pandas
 * NumPy
-
-## Environment Management
 * Python-dotenv
 
 ---
