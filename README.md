@@ -11,7 +11,7 @@ The system helps users understand their **income, expenses, savings, and debts**
 Watch the complete project explanation and demo video.
 
 *Demo Video:*  
-[(Clik here for Demo Video)](https://drive.google.com/file/d/1PUK5Cf6TmEs8fIO6Y-TEoW-oSXN-Fhux/view?usp=sharing)
+[(Click here for Demo Video)](https://drive.google.com/file/d/1PUK5Cf6TmEs8fIO6Y-TEoW-oSXN-Fhux/view?usp=sharing)
 
 ---
 
