@@ -112,7 +112,7 @@ Based on this information, the system generates **structured financial recommend
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```
 ai_financial_advisor/
@@ -173,14 +173,14 @@ Determines how much of the monthly savings can be allocated toward investments.
 
 ---
 
-# 🛠 Installation Guide
+# Installation Guide
 
-## 1. Clone the repository
-## 2. Navigate to the project folder
-## 3. Install dependencies
-## 4. Configure Environment Variables
+# 1. Clone the repository
+# 2. Navigate to the project folder
+# 3. Install dependencies
+# 4. Configure Environment Variables
     Create a `.env` file in the root directory.
-## 5. Run the application
+# 5. Run the application
 
 
 ---
