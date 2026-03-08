@@ -9,7 +9,7 @@ The system helps users understand their **income, expenses, savings, and debts**
 # Project Demo
 
 *Demo Video:*  
-[(Add your Google Drive link here)](https://drive.google.com/file/d/1PUK5Cf6TmEs8fIO6Y-TEoW-oSXN-Fhux/view?usp=sharing)
+[(Click here to watch demo video)](https://drive.google.com/file/d/1PUK5Cf6TmEs8fIO6Y-TEoW-oSXN-Fhux/view?usp=sharing)
 
 ---
 
